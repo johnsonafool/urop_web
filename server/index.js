@@ -7,6 +7,9 @@ const schema = require("./schema/schema");
 const connectDB = require("./config/db");
 const port = 8000;
 // const port = process.env.PORT || 5000;
+// const port = process.env.PORT || 8000;
+
+// const port = process.env.PORT || 8080;
 
 const app = express();
 
