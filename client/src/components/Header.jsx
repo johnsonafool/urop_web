@@ -10,7 +10,7 @@ export default function Header() {
           <div className="d-flex">
             <div>City Science Lab Home Page</div>
           </div>
-          <div>
+          <div className="d-flex">
             <div>MRT Demo</div>
           </div>
         </a>
