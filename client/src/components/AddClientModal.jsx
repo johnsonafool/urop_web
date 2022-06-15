@@ -1,6 +1,6 @@
 import { useMutation } from "@apollo/client";
 import { useState } from "react";
-import { FaUser } from "react-icons/fa";
+import { FaPlaceOfWorship } from "react-icons/fa";
 import { ADD_CLIENT } from "../mutations/clientMutations";
 import { GET_CLIENTS } from "../queries/clientQueries";
 
@@ -39,13 +39,13 @@ export default function AddClientModal() {
     <>
       <button
         type="button"
-        className="btn btn-secondary"
+        className="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#addClientModal"
       >
         <div className="d-flex align-items-center">
-          <FaUser className="icon" />
-          <div>Add Client</div>
+          <FaPlaceOfWorship className="icon" />
+          <div>新增監看地點</div>
         </div>
       </button>
 
